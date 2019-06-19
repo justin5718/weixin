@@ -25,7 +25,7 @@ exports.main = (event, context) => {
   return {
     event,
     openid: wxContext.OPENID,
-    appid: wxContext.APPID,
+    appid: wxContext.APPID, 
     unionid: wxContext.UNIONID,
   }
 }

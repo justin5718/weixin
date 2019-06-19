@@ -1,2 +1,4 @@
 <!--miniprogram/pages/test/test.wxml-->
-<text>z1121</text>
+
+
+<van-button type="danger">默认按钮</van-button>
