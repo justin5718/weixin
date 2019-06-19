@@ -1,30 +1,25 @@
-var db = wx.cloud.database()
-const goods = db.collection("tags")
+// pages/goodsDetail/goodsDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    active: 0,
-    list:["大片","女装","书籍"]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    db.collection('taglist').get({
-      success:function(res) {
-        console.log(res.data[0].tags)
-      }
-    })
+
   },
 
   /**
@@ -45,6 +40,7 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
+
   },
 
   /**
@@ -66,6 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
+  }
 })

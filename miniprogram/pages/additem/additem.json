@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "van-row": "../../dist/row/index",
+    "van-col": "../../dist/col/index",
+    "van-field": "../../dist/field/index",
+    "van-icon": "../../dist/icon/index",
+    "van-cell": "../../dist/cell/index",
+    "van-cell-group": "../../dist/cell-group/index",
+    "van-popup": "../../dist/popup/index",
+    "van-picker": "../../dist/picker/index",
+    "van-button": "../../dist/button/index",
+    "van-dialog": "../../dist/dialog/index"
+  }
+}

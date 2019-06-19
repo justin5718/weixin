@@ -1,0 +1,16 @@
+<van-tabs active="{{ active }}" >
+  <view wx:for="{{ tagList }}">
+    <van-tab title="{{ item }}">
+      <view wx:for="{{ goodsList}}">
+          <van-card
+            num="2"
+            price="{{item.price}}"
+            desc="{{item.introduction}}"
+            title="{{item.title}}"
+            thumb="{{item.imgUrl}}"
+          />
+      </view>
+    </van-tab>
+  </view>
+  
+</van-tabs>
